@@ -1,0 +1,266 @@
+.loginScreen-container
+{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/tiny-people-carrying-key-open-padlock_74855-16292.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=sph");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.feedbackContainer
+{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/organic-flat-feedback-concept_52683-62653.jpg?size=626&ext=jpg&ga=GA1.2.2047273959.1682233859&semt=ais");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.employee-queryContainer
+{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/organic-flat-people-asking-questions-illustration_23-2148906283.jpg?size=626&ext=jpg&ga=GA1.2.2047273959.1682233859&semt=sph");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .feedbackContainer {
+      background-image: url("https://img.freepik.com/free-vector/emotional-feedback-concept-illustration_114360-17635.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+      /* Adjust other properties as needed */
+      background-size: contain;
+    }
+    /* .feedback-cardContainer > .card
+    {
+      background: white;
+    } */
+  }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+.loginScreen-container {
+    background-image: url("https://img.freepik.com/premium-vector/mobile-data-protection-phone-security-privacy-access-with-password-woman-men-are-protecting-phone-privacy_121223-199.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+    /* Adjust other properties as needed */
+    background-size: cover;
+  }
+}
+.forgotPassword-container
+{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/premium-vector/forgot-password-account-login-web-page-protection-security-key-access-system-smartphone-computer-flat-vector-illustration_2175-1377.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .forgotPassword-container {
+      background-image: url("https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1095.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+      /* Adjust other properties as needed */
+      background-size: cover;
+    }
+  }
+
+.resetContainer{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/premium-vector/two-steps-verification-illustration-flat-design-illustration_108061-442.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .resetContainer {
+      background-image: url("https://img.freepik.com/premium-vector/personal-data-security_118813-6512.jpg?size=626&ext=jpg&ga=GA1.1.2047273959.1682233859&semt=ais");
+      /* Adjust other properties as needed */
+      background-size: cover;
+    }
+  }
+.loginCard-container, .forgotCard-container ,.resetCard-container ,.feedback-cardContainer ,.query-container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.forgotCbody ,.resetCbody{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card-body
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.card{
+ background: transparent;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.card:hover  {
+  transform: translateY(-10px);
+}
+.btndiv
+{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.taskdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.superContainer
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;  
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqm7PW68hjGF3piUz4MlqqTvBW3EUWRh30w&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.managerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; 
+}
+.adminAvatar , .digital ,.addicon{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.clockdigi
+{
+  font-family: 'Orbitron', sans-serif;
+
+}
+.cardCollection
+{
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  
+  .cardCollection {
+   
+      display: flex;
+      flex-direction: column;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqm7PW68hjGF3piUz4MlqqTvBW3EUWRh30w&usqp=CAU");
+      background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+      flex-wrap: wrap;
+      
+      /* Enable vertical scrolling */
+      
+  }
+  }
+  .navitext > li{
+    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .navitext >li >a{text-decoration: none;
+    color: rgb(16, 15, 15);
+  }
+    .navitext >li>a:hover{
+      color:darkblue;
+      font-size: 30px;
+    }
+.super-managerContainer ,.super-employeeContainer ,.super-customerContainer ,.employee-Task ,.employee-customerDetails ,.manager-employeeContainer
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=900&t=st=1686817402~exp=1686818002~hmac=85a24047f213c4b6fb727d3b2d4de37430014531e801c8950e9b018ecd1778cf");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.modal-body
+{
+  display: flex;
+  flex-direction: column;
+}
+.dropBtn 
+{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.assignDiv{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.centre-align
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crud-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.gapBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.table-box
+{
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+.manual
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
